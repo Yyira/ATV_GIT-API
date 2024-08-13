@@ -1,0 +1,25 @@
+{
+  "name": "atv_livros",
+  "version": "1.0.0",
+  "main": "database-memory.js",
+  "type": "module",
+  
+    "titulo": "string",
+    "autor": "string",
+    "ano": "number",
+    "lido": "boolean",
+    "nota": "number",
+  
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "fastify": "^4.28.1"
+  }
+}
